@@ -1,0 +1,695 @@
+body {
+  background-color: #FFF5EE !important;
+}
+
+.dark-mode {
+  background-color: black;
+}
+    .fade-in{
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.navbar {
+  position: sticky !important;
+}
+
+.nav-link {
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  padding-top: 40px !important;
+}
+
+.proj-nav {
+ padding: 10px !important;
+}
+
+.logo {
+  padding: 20px;
+  width: 100px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 50px;
+  color:#1D212B;
+}
+
+.description {
+  color:#1D212B;
+  font-size:2vh;
+}
+
+.content {
+   margin-left: 10%;
+}
+
+.content img {
+    margin-right: 15px;
+    float: center;
+}
+
+.content h3 {
+    margin-left: 15px;
+    color:black;
+    display: inline;
+}
+
+.content p {
+  float: right;
+  color:black;
+    display: inline;
+    margin-top: 65px;
+}
+
+.therina {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-desc {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-img {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.hobby-img {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.hobby-title {
+  font-size: 15px;
+}
+
+.Img2 {
+  display: none;
+}
+
+.ImgSwap:hover .Img1 {
+  display: none;
+}
+
+.ImgSwap:hover .Img2 {
+  display: inherit;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+
+.card-img {
+  border-radius: 10px !important;
+}
+
+.card{
+  transition: 0.3s;
+border-radius: 10px !important;
+
+}
+.card:hover {
+  opacity: 1;
+box-shadow: 0 0 50px 15px pink;
+}
+
+.card-title {
+  font-size: 18px;
+  color:#fe818a;
+}
+
+.card-text {
+  font-size: 15px;
+  color:#a25258;
+}
+
+
+.footer {
+  position: fixed;
+  left: 10;
+  bottom: 100;
+  width: 100%;
+  color: black;
+
+  text-align: left;
+}
+
+.footer-line {
+  margin-top: 100px;
+}
+
+.a return {
+  top: 10;
+}
+
+
+
+
+  /*animate text*/
+  .animate-character
+{
+  background-image: linear-gradient(
+    -225deg,
+    #fe7489 0%,
+    #fd3e84 29%,
+    #fe7489 67%,
+    #ffa58d 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200%;
+  }
+}
+
+.dropDown {
+  animation: 2s anim-dropDown ease-out;
+}
+@keyframes anim-dropDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-5%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+
+  }
+}
+
+.hangon-btn {
+  background-color:#267d50 !important;
+
+}
+.return {
+  background-color:pink !important;
+}
+
+.card-img {
+  transition: 0.3s;
+}
+.card-img:hover {
+  opacity: 0.6;
+}
+
+#fao-header-image-menu {
+  background-color: #0f60d5;
+  position: relative;
+}
+
+#fao-header-image-menu img{
+  margin: auto;
+  width: 50%;
+  
+  display: flex;
+      justify-content: center;
+}
+
+/* Header/Logo Title */
+#header-image-menu{
+  top: 10px;
+  position: relative;
+  background: rgb(17,111,70);
+  background: linear-gradient(180deg, rgba(17,111,70,1) 40%, rgba(160,221,195,1) 100%);
+  
+}
+
+#header-image-menu img{
+  margin: auto;
+  width: 50%;
+
+  display: flex;
+      justify-content: center;
+}
+
+#image-text{
+  position: absolute;
+}
+/* Page Content */
+.content {
+  padding:20px;
+}
+
+.project-title {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+
+.project-subtitle {
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.project-description {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.4vw;
+}
+
+
+
+.up {
+  transform: rotate(180deg)!important;
+  -webkit-transform: rotate(180deg)!important;
+}
+
+.arrow {
+  display: inline-block;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.navbar {
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.opener-text {
+  font-size: 50px;
+  color:#1D212B;
+  margin-left: 10px;
+}
+
+section.landing{
+  min-height: 100vh;
+}
+
+section.landing:nth-child(8) {
+  min-height: 45vh !important;
+  max-height: 45vh !important;
+}
+
+section.project {
+  min-height: 45 vh;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    border-radius: 50%;
+    box-shadow: 0 0 0 0px rgba(250, 90, 90, 0.2);
+  }
+  100% {
+    border-radius: 50%;
+    box-shadow: 0 0 0 20px rgba(250, 90, 90, 0);
+  }
+}
+/*
+.skill {
+  color:white; 
+  border-radius:10px;
+  margin-bottom:auto;
+  background-color:#ffa18d;
+}*/
+
+.about {
+  color:#b37163;
+}
+
+
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#typewriter p{
+  text-align: center;
+  display:flex;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #fd3e84; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fd3e84; }
+}
+
+.child {
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+0%   { transform: translateY(0); }
+50%  { transform: translateY(-50px); }
+100% { transform: translateY(0); }
+}
+
+* { box-sizing: border-box; }
+
+.fao-title {
+  color: #0f60d5;
+}
+
+.description-font {
+  font-size: 15px;
+}
+.hangon-title {
+  color: #267d50;
+}
+:root {
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.toggle-switch {
+  position: relative;
+  width: 200px;
+}
+
+label {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: var(--dark);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+input:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: inset 28px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  transition: 0.3s;
+}
+
+input:checked ~ .slider::before {
+  transform: translateX(95px);
+  background-color: var(--dark);
+  box-shadow: none;
+}
+
+a.nav-link {
+  position: relative;
+  text-decoration: none !important;
+}
+
+a.nav-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 4px;
+    background-color: #fd3e84;;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+a.nav-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.splide {
+  border-radius: 10px;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.work-description {
+  color:#0f60d5;
+  font-size: 15px;
+  text-align: center;
+}
+
+.learnings {
+  font-size: 14px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+blockquote {
+  background: white;
+  padding: 20px 30px 20px 30px;
+  margin: 50%;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.shadow {
+  border: solid 2px #267d50;
+  box-shadow: 15px 15px 0 0 blue;
+}
+
+.circle {
+  width: 200px;
+  border-radius:50%;
+  font-size:30px;
+  color:#fff;
+  line-height:200px;
+  text-align:center;
+  background:#267d50;
+}
+
+.research {
+  font-size: 16px;
+  margin: 10px;
+}
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
