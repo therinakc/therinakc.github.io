@@ -97,11 +97,33 @@ body {
     margin-top: 65px;
 }
 
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
 .therina {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  padding: 10px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
 }
 
 .centered {
@@ -197,11 +219,6 @@ box-shadow: 0 0 50px 15px pink;
   margin-top: 100px;
 }
 
-.a return {
-  top: 10;
-}
-
-
 
 
   /*animate text*/
@@ -254,16 +271,51 @@ box-shadow: 0 0 50px 15px pink;
   }
 }
 
-.hangon-btn {
-  background-color:#267d50 !important;
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
   border-radius: 10px;
 }
 
-.btn:hover {
-  opacity: 0.5;
+.return:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #fe7489;
 }
+
 .return {
-  background-color: #fe7489 !important;
+  background-color: #fe7489;
+  color: white;
+}
+
+.hangon:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #267d50;
+}
+
+.hangon {
+  background-color: #267d50;
+  color: white;
+}
+
+.fao:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #0f60d5;
+}
+
+.fao {
+  background-color: #0f60d5;
+  color: white;
 }
 
 .card-img {
@@ -326,7 +378,7 @@ box-shadow: 0 0 50px 15px pink;
 .project-description {
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 1.4vw;
+  font-size: 22px;
 }
 
 
@@ -413,6 +465,9 @@ section.project {
   color:#b37163;
 }
 
+.type-title {
+  font-size: 21px;
+}
 
 .container {
   margin: auto;
@@ -623,28 +678,12 @@ blockquote {
   padding-top: 10px;
 }
 
-
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+.overview-title {
+  font-size: 17px;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+.overview-sub {
+  font-size: 18px;
 }
+
 
