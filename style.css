@@ -70,7 +70,8 @@ body {
 
 .description {
   color:#1D212B;
-  font-size:2vh;
+  font-size:3vh;
+  text-align: center;
 }
 
 .content {
