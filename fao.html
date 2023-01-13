@@ -1,0 +1,142 @@
+<!doctype html>
+
+<html lang="en-CA">
+
+<head>
+  <title>Therina Castor</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css "href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="icon" href="http://example.com/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
+<body>
+  <!-- top navigation-->
+
+  <div id="fao-header-image-menu">
+    <img src="fao.png">
+    <p style="color:white" id="image-text">In Winter 2022, I interned at the <b>Financial Accountability Office of Ontario</b> as a <u>Digital Graphics Co-op Student</u> as part of the Communications team.</p>
+</div>
+
+      <div class="reveal container">
+      <h1 class="project-subtitle fao-title">What is the FAO?</h1>
+      <p class="project-description">The <b>Financial Accountability Office of Ontario or FAO</b> is a provincial organization that provides independent analysis on the state of the Province's finances, trends in the provincial economy and related matters important to the Legislative Assembly of Ontario.</p>
+    </div>
+
+    <div class="reveal container">
+      <h1 class="project-subtitle fao-title">What I did</h1>
+      <p class="project-description">Working closely with the lead graphic designer, I was assigned various digital communications tasks and products to complete for publication.</p>
+      <h2 class="project-subtitle fao-title">Infographics</h1>
+        <p class="project-description">Utilizing <b>Adobe CC (Photoshop, Illustrator, Premiere Pro)</b>, I designed infographics based on reports written by the Financial and Economics teams, to be published on social media.</p>
+        <h2 class="project-subtitle fao-title">Formatting Reports</h1>
+        <p class="project-description">Formatting reports using <b>Microsoft Office</b> and <b>Adobe Acrobat</b>, then converting them to <b>HTML</b> and <b>CSS</b>, ensuring that they were accessible and user friendly to read.</p>
+        <h2 class="project-subtitle fao-title">Website Maintenance</h1>
+        <p class="project-description">Maintaining the FAO website using <b>HTML</b>,<b> CSS</b>, and a <b>CMS interface</b></p>
+        <h2 class="project-subtitle fao-title">Accessibility</h1>
+          <p class="project-description">All FAO products have to meet </p>
+    </div>
+
+    <div class="container fade-in">
+    <h1 class="project-subtitle fao-title reveal">Some of the work I did!</h1>
+  <div class="row">
+  <div class="reveal col">
+  <section class="splide" aria-label="FAO Work Gallery">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img src="faowork1.png" alt="">
+          <div class="work-description">
+            Infographics were designed to be posted on different social media such as Instagram and Twitter.
+          </div>
+        </li>
+        <li class="splide__slide">
+          <img src="faoworken.png" alt="english infographic">
+          <div class="work-description">
+            Each infographic had to be created in English...
+          </div>
+        </li>
+        <li class="splide__slide">
+          <img src="faoworkfr.png" alt="french infographic">
+          <div class="work-description">
+            ...and French.
+          </div>
+        </li>
+        <li class="splide__slide">
+          <img src="faowork2.gif" alt="infographic">
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+<div class="reveal col">
+  <div class="card">
+    <a href="/Users/Pherina/Desktop/therinacastor%20portfolio/illustrator.html">
+      <title>FAO</title><img class="card-img" src="illustrator.png" alt="distribution illustrator"/>
+  </a>
+    <div class="card-body">
+      <h5 class="card-title fao-title" style="text-align:center;">Distribution Illustrator</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+      <a style="margin-left: 50%;" href="/Users/Pherina/Desktop/therinacastor%20portfolio/home.html" class="btn btn-primary return">Return to homepage</a>
+    
+      <!-- footer -->
+      <div>
+        <hr>
+        <p class="bottom">&#169; Therina Castor 2023</p>
+      </div>
+      
+        <script src="js/index.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            window.addEventListener('scroll', reveal);
+        
+            function reveal(){
+              var reveals = document.querySelectorAll('.reveal');
+        
+              for(var i = 0; i < reveals.length; i++){
+        
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+        
+                if(revealtop < windowheight - revealpoint){
+                  reveals[i].classList.add('active');
+                }
+                else{
+                  reveals[i].classList.remove('active');
+                }
+              }
+            }
+
+            
+
+      </script>
+<script>
+  new Splide( '.splide' ).mount();
+</script>
+<script>
+  document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#image-carousel', {
+    heightRatio: 0.5,
+    type: loop,
+  } ).mount();
+} );
+</script>
+
+    </body>
+
+</html>
