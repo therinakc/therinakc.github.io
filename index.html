@@ -23,38 +23,17 @@
   
   <a id="intro"></a>
   <!-- top navigation-->
-  <div class="top-container container-fluid" id="intro">
-    <nav class="navbar navbar-expand-lg">
-      <!-- dark mode
-      <div class = 'toggle-switch'>
-        <label>
-            <input type = 'checkbox' onclick="myFunction()">
-            <span class = 'slider'></span>
-        </label>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-left">
+          <li><a class="nav-link" href="#">Left</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-link" href="#about">Right</a></li>
+        <li><a class="nav-link" href="#about">Right</a></li>
+      </ul>
     </div>
-  -->
-        <div class="collapse navbar-collapse" >
-            <ul class="navbar-nav mx-auto"> 
-                <li class="nav-item">
-                    <a class="nav-link" style="color:#ffa18d;" href=#about>about</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color:#fe818a;" href=#projects>portfolio</a>
-                </li>
-                <li class="nav-item" active>
-                  <a href=#intro><img class="logo" src="/images/beaver.png"/></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color:#fd5586;" href=#socials>contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color:#fd3d84;" href="" target="_blank">resume</a>
-                </li>
-
-            </ul>
-
-        </div>
-    </nav>
+  </nav>
 
     <!-- dark mode
     <div class="switch">
@@ -87,6 +66,27 @@
     <div class="col-lg-6 about">
       <img class="about-img fade-in" src="/images/beaver.png"/ alt="">
       <h3 style="padding: 20px;">Did you know? <br> "Castor" means beaver in French!</h3>
+      <div class="row">
+        <h2 class="type-title">My Hobbies!</h2>
+      </div>
+      <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+        <div class="col ImgSwap">
+       <img class="hobby-img Img1 fade-in" src="/images/climbing1.jpg" alt="">
+       <img class="Img2 hobby-img fade-in" src="/images/climbing2.jpg">
+       <h3 class="hobby-title">Rock Climbing</h3>
+       <h5 >indoor & outdoor!</h5>
+      </div>
+      <div class="col">
+        <img class="hobby-img fade-in" src="/images/gaming" alt="">
+        <h3 class="hobby-title">Gaming</h3>
+        <h5>my current setup & custom pc!</h5>
+       </div>
+       <div class="col">
+        <img class="hobby-img fade-in" src="/images/therina.jpg" alt="">
+        <h3 class="hobby-title">Drawing</h3>
+        <h5>traditional & digital</h5>
+       </div>
+      </div>
     </div>
     <div class="col-lg-6 about">
       <div class="row">
@@ -94,7 +94,7 @@
         <p class="about-desc">As an aspiring designer, I'm always striving to learn new things and develop my skills so I provide meaningful and accessible user experiences.</p>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg">
             <div>
                 <h2 class="type-title">Education</h2>
                 <ul style="font-size: 18px;">
@@ -103,61 +103,42 @@
                 </ul>
             </div>
         </div>
-        <div class="col-lg-6 ">
+        
+        <div class="row">
+          <div class="col-lg">
             <div>
                 <h2 class="type-title">Experience</h2>
                 <ul  style="font-size: 18px;">
-                  <li><span class="skill">&nbsp;UX/UI design&nbsp;</span></li>
+                  <li><span class="skill">Digital Graphics Intern - Financial Accountability Office of Ontario</span></li>
                 </ul>
             </div>
-        </div>
-        <div class="row">
             <div class="col-lg-6">
-                <div>
-                    <h2 class="type-title">Skills & Tools</h2>
-                    <ul style="font-size: 18px;">
-                      <li><span class="skill">&nbsp;Figma&nbsp;</span></li>
-                      <li><span class="skill">&nbsp;Adobe CC&nbsp;</span></li>
-                      <li><span class="skill">&nbsp;HTML/CSS&nbsp;</span></li>
-                      <li><span class="skill">&nbsp;JavaScript&nbsp;</span></li>
-                      <li><span class="skill">&nbsp;Python&nbsp;</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6 ">
-                <div>
-                    <h2 class="type-title">Interests</h2>
-                    <ul  style="font-size: 18px;">
-                      <li><span class="skill">&nbsp;UX/UI design&nbsp;</span></li>
-                      <li><span class="skill">&nbsp;Visual design&nbsp;</span></li>
-                      <li><span class="skill">&nbsp;Web development&nbsp;</span></li>
-                      <li><span class="skill">&nbsp;Accessibility&nbsp;</span></li>
-                    </ul>
-                </div>
+              <div>
+                  <h2 class="type-title">Skills & Tools</h2>
+                  <ul style="font-size: 18px;">
+                    <li><span class="skill">&nbsp;Figma&nbsp;</span></li>
+                    <li><span class="skill">&nbsp;Adobe CC&nbsp;</span></li>
+                    <li><span class="skill">&nbsp;HTML/CSS&nbsp;</span></li>
+                    <li><span class="skill">&nbsp;JavaScript&nbsp;</span></li>
+                    <li><span class="skill">&nbsp;Python&nbsp;</span></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-lg-6 ">
+              <div>
+                  <h2 class="type-title">Interests</h2>
+                  <ul  style="font-size: 18px;">
+                    <li><span class="skill">&nbsp;UX/UI design&nbsp;</span></li>
+                    <li><span class="skill">&nbsp;Visual design&nbsp;</span></li>
+                    <li><span class="skill">&nbsp;Web development&nbsp;</span></li>
+                    <li><span class="skill">&nbsp;Accessibility&nbsp;</span></li>
+                  </ul>
+              </div>
+        </div>
+            
             </div>
             <div class="row">
-              <p class="about-desc">For more details about my experience, please feel free to take a look at my <a href="insert link" target="_blank">resume</a>.</p>
-            </div>
-            <div class="row">
-              <h2 class="type-title">My Hobbies!</h2>
-            </div>
-            <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
-              <div class="col ImgSwap">
-             <img class="hobby-img Img1 fade-in" src="/images/climbing1.jpg" alt="">
-             <img class="Img2 hobby-img fade-in" src="/images/climbing2.jpg">
-             <h3 class="hobby-title">Rock Climbing</h3>
-             <h5 >indoor & outdoor!</h5>
-            </div>
-            <div class="col">
-              <img class="hobby-img fade-in" src="/images/gaming" alt="">
-              <h3 class="hobby-title">Gaming</h3>
-              <h5>my current setup & custom pc!</h5>
-             </div>
-             <div class="col">
-              <img class="hobby-img fade-in" src="/images/therina.jpg" alt="">
-              <h3 class="hobby-title">Drawing</h3>
-              <h5>traditional & digital</h5>
-             </div>
+              <p class="about-desc">For more details about my experience and skills, please feel free to take a look at my <a href="insert link" target="_blank">resume</a>.</p>
             </div>
             
         </div>
@@ -242,12 +223,12 @@
     <div class="row">
     <div class="col">
       <a target="_blank" href="https://www.linkedin.com/in/therina-castor/" >
-        <img width="100px" src="linkedin.png"/>
+        <img width="100px" src="/images/linkedin.png"/>
         </a>
      </div>
      <div class="col">
       <a target="_blank" href="mailto:castortherina@gmail.com">
-        <img width="100px" src="mail.png"/>
+        <img width="100px" src="/images/mail.png"/>
     </a>
      </div>
     </div>
