@@ -1,5 +1,6 @@
 body {
   background-color: #FFF5EE !important;
+  font-family: 'Open Sans' !important;
 }
 
 .dark-mode {
@@ -65,11 +66,11 @@ body {
 .title {
   margin-top: 20px;
   font-size: 50px;
-  color:#1D212B;
+  color:#3d3d3d;
 }
 
 .description {
-  color:#1D212B;
+  color:#3d3d3d;
   font-size:3vh;
   text-align: center;
 }
