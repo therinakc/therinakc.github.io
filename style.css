@@ -1,17 +1,29 @@
 
 @font-face {
-  font-family: sk-modernist;
-  src: url('css/fonts/Sk-Modernist-Regular.otf');
+  font-family: 'sk-modernist-bold';
+  src: url('https://therinacastor.com/css/fonts/sk-modernist-bold-webfont.woff2') format('woff2'),
+       url('https://therinacastor.com/css/fonts/sk-modernist-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 @font-face {
-  font-family: sk-modernist-mono;
-  src: url('css/fonts/Sk-Modernist-Mono.otf');
+  font-family: 'sk-modernist-mono';
+  src: url('https://therinacastor.com/css/fonts/sk-modernist-mono-webfont.woff2') format('woff2'),
+       url('https://therinacastor.com/css/fonts/sk-modernist-mono-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 @font-face {
-  font-family: sk-modernist-bold;
-  src: url('css/fonts/Sk-Modernist-Bold.otf');
+  font-family: 'sk-modernist';
+  src: url('https://therinacastor.com/css/fonts/sk-modernist-regular-webfont.woff2') format('woff2'),
+       url('https://therinacastor.com/css/fonts/sk-modernist-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 .nav-link {
