@@ -1,17 +1,13 @@
 
-@font-face {
-  font-family: 'sk-modernist-bold';
-  src: url('https://therinacastor.com/css/fonts/sk-modernist-bold-webfont.woff2') format('woff2'),
-       url('https://therinacastor.com/css/fonts/sk-modernist-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
+src: url('fonts/sk-modernist--webfont.woff2') format('woff2'),
+     url('fonts/sk-modernist--webfont.woff') format('woff'),
+     url('fonts/Sk-Modernist-.otf') format('truetype');
 
 @font-face {
   font-family: 'sk-modernist-mono';
-  src: url('https://therinacastor.com/css/fonts/sk-modernist-mono-webfont.woff2') format('woff2'),
-       url('https://therinacastor.com/css/fonts/sk-modernist-mono-webfont.woff') format('woff');
+  src: url('fonts/sk-modernist-mono-webfont.woff2') format('woff2'),
+  url('fonts/sk-modernist-mono-webfont.woff') format('woff'),
+  url('fonts/Sk-Modernist-Mono.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -19,8 +15,9 @@
 
 @font-face {
   font-family: 'sk-modernist';
-  src: url('https://therinacastor.com/css/fonts/sk-modernist-regular-webfont.woff2') format('woff2'),
-       url('https://therinacastor.com/css/fonts/sk-modernist-regular-webfont.woff') format('woff');
+  src: url('fonts/sk-modernist-regular-webfont.woff2') format('woff2'),
+     url('fonts/sk-modernist-regular-webfont.woff') format('woff'),
+     url('fonts/Sk-Modernist-Regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
