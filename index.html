@@ -47,16 +47,9 @@
   </div>
 </nav>
 
-
-
-
-    <!-- dark mode
-    <div class="switch">
-      <label class="dark-mode" for="checkbox">
-          <input type="checkbox" id="checkbox" />
-          <div class="slider round"></div>
-      </label>
-  </div> -->
+<!--
+<button onclick="myFunction()">Toggle dark mode</button>
+-->
 
  <!-- introduction -->
  <section class="landing">
@@ -64,11 +57,13 @@
   <div class="container py-5 mt-5">
   <div class="row">
     <div class="col-lg">
-        <h1 class="title"  style="text-align: center; padding-bottom: 10px;">Hi!</h1>
-        <img class="therina center" src="images/therina.jpg"/>   
+      <img class="therina center" src="images/therina.jpg"/>   
+      </div>
+      <div class="col-lg">
+        <h1 class="intro-title">Mabuhay!</h1>
+        <p id="typewriter" class="description"> I'm Therina, a student and an aspiring UX/UI designer based in Toronto, Canada &#127809;</p>
       </div>
       </div>
-        <p class="description fade-in">I'm Therina, an aspiring UX/UI designer based in Toronto, Canada &#127809;</p>
     </div>
 <a href="#about"><img class="arrow down pulse fade-in" width="64px" src="images/arrow.png"/></a>
 </section>
@@ -95,13 +90,7 @@
         <h3 class="hobby-title">Gaming</h3>
         <h5>my current setup & custom pc!</h5>
        </div>
-       <!--
-       <div class="col">
-        <img class="hobby-img fade-in" src="images/therina.jpg" alt="">
-        <h3 class="hobby-title">Drawing</h3>
-        <h5>traditional & digital</h5>
-       </div>
-       -->
+ 
       </div>
     </div>
     <div class="col-lg-6 about">
@@ -232,11 +221,12 @@
 
 <!-- socials -->
 <a id="socials"></a>
-<section class="landing">
+<section class="social">
     <div class="reveal container py-5 mt-5">
     <h1 class="fade-in title" style="color:#fd5586;">Want to connect?</h1>
-    <h2 class="fade-in" style="color:#7f2b43">My inbox is always open!</h2>
-    <div class="row">
+    <h2 class="fade-in">Thanks for checking out my page! If you'd like to
+      talk more and connect, my inbox is always open!</h2>
+    <div class="row"> 
     <div class="col">
       <a target="_blank" href="https://www.linkedin.com/in/therina-castor/" >
         <img width="100px" src="images/linkedin.png"/>
@@ -281,11 +271,11 @@
           }
         }
 
-        function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
 }
-  </script>
+</script>
 
   
     

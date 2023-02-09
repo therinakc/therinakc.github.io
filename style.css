@@ -1,22 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300&display=swap');
+
+@font-face {
+  font-family: sk-modernist;
+  src: url('css/fonts/Sk-Modernist-Regular.otf');
+}
+
+@font-face {
+  font-family: sk-modernist-mono;
+  src: url('css/fonts/Sk-Modernist-Mono.otf');
+}
+
+@font-face {
+  font-family: sk-modernist-bold;
+  src: url('css/fonts/Sk-Modernist-Bold.otf');
+}
+
+.nav-link {
+  font-family: 'sk-modernist-mono' !important;
+  color: white;
+}
 
 
 body {
-  background-color: #f5f5f5 !important;
-  font-family: 'Open Sans', sans-serif !important;
+  background-color: #f5f5f5;
+  color:#3d3d3d;
+  font-family: 'sk-modernist' !important;
 }
+
 .p {
-  font-family: 'Open Sans', sans-serif !important;
+  color: white;
+  font-family: 'sk-modernist' !important;
   
 }
-title.h1{
-  font-family: 'Lato', sans-serif !important;
-  }
-
-
 
 .dark-mode {
   background-color: black;
+  color: white;
 }
 
     .fade-in{
@@ -69,16 +87,26 @@ title.h1{
   font-size: 25px !important;
 }
 
+
+.intro-title {
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'sk-modernist-mono' !important;
+}
 .title {
   margin-top: 20px;
   font-size: 50px;
-  color:#3d3d3d;
+  text-align: left;
+  font-family: 'sk-modernist-mono' !important;
+
 }
 
 .description {
-  color:#3d3d3d;
-  font-size:3vh;
+  padding-top: 20px;
+  font-size:5vh;
   text-align: center;
+  font-family: 'sk-modernist-mono' !important;
 }
 
 .content {
@@ -207,7 +235,7 @@ box-shadow: 0 0 50px 15px pink;
 
 .card-text {
   font-size: 15px;
-  color:#a25258;
+  color: #3d3d3d;
 }
 
 
@@ -425,7 +453,7 @@ section.landing{
   min-height: 100vh;
 }
 
-section.landing:nth-child(8) {
+section.social {
   min-height: 45vh !important;
   max-height: 45vh !important;
 }
@@ -468,8 +496,7 @@ section.project {
   background-color:#ffa18d;
 }*/
 
-.about {
-  color:#b37163;
+.about {;
 }
 
 .type-title {
@@ -530,7 +557,7 @@ section.project {
 }
 
 .description-font {
-  font-size: 15px;
+  font-size: 20px;
 }
 .hangon-title {
   color: #267d50;
@@ -552,7 +579,7 @@ section.project {
 
 .toggle-switch {
   position: relative;
-  width: 200px;
+  width: 10px;
 }
 
 label {
