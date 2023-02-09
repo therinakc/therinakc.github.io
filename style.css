@@ -488,6 +488,7 @@ section.project {
     box-shadow: 0 0 0 20px rgba(250, 90, 90, 0);
   }
 }
+
 /*
 .skill {
   color:white; 
@@ -495,9 +496,6 @@ section.project {
   margin-bottom:auto;
   background-color:#ffa18d;
 }*/
-
-.about {;
-}
 
 .type-title {
   font-size: 21px;
