@@ -5,9 +5,7 @@ src: url('fonts/sk-modernist--webfont.woff2') format('woff2'),
 
 @font-face {
   font-family: 'sk-modernist-mono';
-  src: url('fonts/sk-modernist-mono-webfont.woff2') format('woff2'),
-  url('fonts/sk-modernist-mono-webfont.woff') format('woff'),
-  url('fonts/Sk-Modernist-Mono.otf') format('truetype');
+  src: url('fonts/Sk-Modernist-Mono.otf');
   font-weight: normal;
   font-style: normal;
 
