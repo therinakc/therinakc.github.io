@@ -130,7 +130,7 @@ body {
 }
 .intro-title {
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 6vh;
   text-align: center;
 }
 .title {
@@ -501,6 +501,10 @@ box-shadow: 0 0 50px 15px pink;
 
 section.landing{
   min-height: 100vh;
+}
+
+section.about {
+  min-height: 70vh !important;
 }
 
 section.social {
