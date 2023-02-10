@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: 'Playfair-Display';
+  src: url('fonts/PlayfairDisplay-Italic.ttf');
+    src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+}
 
 @font-face {
   font-family: 'sk-modernist-mono';
@@ -24,6 +29,15 @@
      url('fonts/sk-modernist-bold-webfont.woff') format('woff'),
      url('fonts/Sk-Modernist-Bold.otf') format('truetype');
 
+}
+
+span.logo {
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3d3d3d;
+  font-family:'Playfair-Display';
+  font-size:6.5vh !important;
 }
 
 h1, h2 {
@@ -101,12 +115,18 @@ body {
 .logo {
   padding-top: 15px !important;
   font-size: 25px !important;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3d3d3d;
+  font-family:'Playfair-Display';
 }
 
 .about-me {
-  background: rgb(255, 217, 223);
+  background: rgb(255, 236, 225);
   border-radius: 10px;
   padding: 10px;
+  padding-bottom: 5px;
 }
 .intro-title {
   margin-top: 20px;
@@ -297,6 +317,9 @@ box-shadow: 0 0 50px 15px pink;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -516,13 +539,16 @@ section.project {
   }
 }
 
-/*
+ul {
+  list-style-type: none;
+}
+
 .skill {
-  color:white; 
   border-radius:10px;
   margin-bottom:auto;
-  background-color:#ffa18d;
-}*/
+  padding: 1px;
+  background-color:rgb(255, 217, 223);
+}
 
 .type-title {
   font-size: 21px;
@@ -751,6 +777,20 @@ blockquote {
 
 .overview-sub {
   font-size: 18px;
+}
+.thumb img { 
+	border:1px solid #000;
+	margin:3px;
+	float:left;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0; left:250px; 
+	z-index:1;
 }
 
 
