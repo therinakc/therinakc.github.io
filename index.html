@@ -60,7 +60,42 @@
       </div>
       <div class="col-lg">
         <h1 class="intro-title">Mabuhay! <span style="font-size: 2vh; color: grey;">(welcome!)</span></h1>
-        <p id="typewriter" class="description"><span class="logo" style="font-family:'Playfair-Display'">Therina Castor</span> is a student and an aspiring UX/UI designer based in Toronto, Canada 🇨🇦</p>
+        <p  class="description"><span class="logo" style="font-family:'Playfair-Display'">Therina Castor</span> is a</p>
+        <div class="container">
+       <span class="desc realistic-marker-highlight" style="font-family:'Playfair-Display'">UX Designer</span>
+       <span class="desc" style="font-family:'Playfair-Display'">, </span>
+       <span class="desc realistic-marker-highlight2" style="font-family:'Playfair-Display'"> Student</span>
+       <span class="desc" style="font-family:'Playfair-Display'">, </span>
+        <span class="desc realistic-marker-highlight3" style="font-family:'Playfair-Display'"> Artist</span>
+       <p class="description">based in Toronto, Canada 🇨🇦</p>
+      </div>
+
+        <!--<span class="text sec-text">UX Designer</span>
+      
+      <script>
+          const text = document.querySelector(".sec-text");
+  
+          const textLoad = () => {
+              setTimeout(() => {
+                  text.textContent = "UX Designer";
+              }, 0);
+              setTimeout(() => {
+                  text.textContent = "Student";
+              }, 4000);
+              setTimeout(() => {
+                  text.textContent = "Artist";
+              }, 8000); //1s = 1000 milliseconds
+              setTimeout(() => {
+                  text.textContent = "Rock Climber";
+              }, 8000); //1s = 1000 milliseconds
+          }
+  
+          textLoad();
+          setInterval(textLoad, 12000);
+      </script>
+      <p class="description">based in Toronto, Canada 🇨🇦</p>
+    </div> -->
+      </div>
       </div>
       </div>
       
@@ -235,15 +270,11 @@
     <h2 class="fade-in">Thanks for checking out my page! If you'd like to
       talk more and connect, my inbox is always open!</h2>
       <div class="row">
-        <div class="col">
-          <a target="_blank" href="https://www.linkedin.com/in/therina-castor/" >
-            <img width="60px" src="images/linkedin.png"/>
-            </a>
-          <a target="_blank" href="mailto:castortherina@gmail.com">
-            <img width="60px" style="padding-left: 10px;" src="images/mail.png"/>
-        </a>
-    </div>
-  </div>
+          <div class="col-lg">
+            <div class="container">
+              <span class="link linkedin-highlight" style="font-family:'Playfair-Display'"><a class="contact" href="https://www.linkedin.com/in/therina-castor/" target="_blank">LinkedIn</a></span>
+              <span class="desc" style="font-family:'Playfair-Display'">, </span>
+              <span class="link email-highlight" style="font-family:'Playfair-Display'"><a class="contact" href="mailto:tkcastor@uwaterloo.ca" target="_blank">Email</a></span>
     </div>
   <a href="#intro"><img class="arrow up fade-in pulse" width="64px" src="images/arrow.png"/></a>
   </section>
@@ -253,7 +284,14 @@
     <hr>
     <p class="bottom">&#169; Therina Castor 2023</p>
   </div>
-
+  <svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+    <defs>
+      <filter id="marker-shape">
+        <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+        <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+      </filter>
+    </defs>
+  </svg>
     
   <!-- reveal code-->
 <script type="text/javascript">
