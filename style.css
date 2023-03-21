@@ -157,7 +157,7 @@ body {
 
 .description {
   padding-top: 10px;
-  font-size:4vh;
+  font-size:3vh;
   text-align: center;
   font-family: 'sk-modernist-mono', sans-serif !important;
 }
@@ -813,14 +813,12 @@ blockquote {
 
 .heading {
   font-family:'Playfair-Display';
-  font-size: 5vh !important;
+  font-size: 4vh !important;
   text-align: center;
   color: black;
   -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #3d3d3d;
-  font-family:'Playfair-Display';
-  font-size:5vh !important;
 }
 
 @media screen and (min-width: 40em) {
