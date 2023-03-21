@@ -5,35 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <!----======== CSS ======== -->
     <link rel="stylesheet" href="style.css">
+
+    <!----======== CSS ======== -->
+   
     <!--<title>Typing Text Animation</title>-->
 </head>
 <body>
-    <div class="container">
-        <span class="text center sec-text">UX Designer</span>
-    </div>
+    <section class="about">
+        <a id="intro"></a>
+        <div class="container py-5 mt-5">
+        <div class="row">
+          <div class="col-lg">
+            <img class="therina center" src="images/therina.jpg"/>   
+            </div>
+            <div class="col-lg">
+              <h1 class="intro-title">Mabuhay! <span style="font-size: 2vh; color: grey;">(welcome!)</span></h1>
+              <p  class="description"><span class="logo" style="font-family:'Playfair-Display'">Therina Castor</span> is a</p>
+              <div class="main">
+                <div class="roller">
+                  <span id="rolltext" class="">UX Designer<br/>
+                  Student<br/>
+                  Artist<br/>
+                  Rock Climber
 
-    <script>
-        const text = document.querySelector(".sec-text");
+                  </div>
+                </div>
+             <p class="description">based in Toronto, Canada 🇨🇦</p>
+        
+            </div>
+            </div>
+            </div>
+            
+      <a href="#about"><img class="arrow down pulse fade-in" width="64px" src="images/arrow.png"/></a>
+      </section>
 
-        const textLoad = () => {
-            setTimeout(() => {
-                text.textContent = "UX Designer";
-            }, 0);
-            setTimeout(() => {
-                text.textContent = "Student";
-            }, 4000);
-            setTimeout(() => {
-                text.textContent = "Artist";
-            }, 8000); //1s = 1000 milliseconds
-            setTimeout(() => {
-                text.textContent = "Rock Climber";
-            }, 8000); //1s = 1000 milliseconds
-        }
 
-        textLoad();
-        setInterval(textLoad, 12000);
-    </script>    
+       
 </body>
 </html>

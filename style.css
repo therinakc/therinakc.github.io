@@ -37,17 +37,9 @@ span.logo {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #3d3d3d;
   font-family:'Playfair-Display';
-  font-size:6.5vh !important;
-}
-
-span.desc {
-  color: black;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #3d3d3d;
-  font-family:'Playfair-Display';
   font-size:6vh !important;
 }
+
 
 span.link {
   color: black;
@@ -587,31 +579,6 @@ ul {
   padding: 10px;
 }
 
-#typewriter p{
-  text-align: center;
-  display:flex;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #fd3e84; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #fd3e84; }
-}
-
 .child {
   align-self: flex-end;
   animation-duration: 2s;
@@ -829,94 +796,37 @@ blockquote {
 }
 
 
-.realistic-marker-highlight{
-  position:relative;
+.heading {
+  font-family:'Playfair-Display';
+  font-size: 5vh !important;
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3d3d3d;
+  font-family:'Playfair-Display';
+  font-size:5vh !important;
 }
 
-.realistic-marker-highlight:before{
-  content:"";
-  background-color:#ff6db7;
-  width:100%;
-  height:1em;
-  position:absolute;
-  z-index:-1;
-  filter:url(#marker-shape);
-  left: 0.01em;
-  top:0.1em;
+@media screen and (min-width: 40em) {
+ 
+  .heading {
+    font-size: 6vw;
+  }
+
+  .subheading {
+    font-size: 1.75vw;
+  }
 }
 
-.realistic-marker-highlight2{
-  position:relative;
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  
 }
-
-.realistic-marker-highlight2:before{
-  content:"";
-  background-color:#ffe46d;
-  width:100%;
-  height:1em;
-  position:absolute;
-  z-index:-1;
-  filter:url(#marker-shape);
-  left:0.05em;
-  top:0.1em;
-  padding:0 0.25em;
+.underline--magical:hover {
+  background-size: 100% 88%;
 }
-.realistic-marker-highlight3{
-  position:relative;
-}
-
-.realistic-marker-highlight3:before{
-  content:"";
-  background-color:#6dddff;
-  width:100%;
-  height:1em;
-  position:absolute;
-  z-index:-1;
-  filter:url(#marker-shape);
-  left:-0.05em;
-  top:0.1em;
-  padding:0 0.25em;
-}
-
-.linkedin-highlight{
-  position:relative;
-}
-
-.linkedin-highlight:before{
-  content:"";
-  background-color:#0072b1;
-  width:100%;
-  height:1em;
-  position:absolute;
-  z-index:-1;
-  filter:url(#marker-shape);
-  left:-0.05em;
-  top:0.1em;
-  padding:0 0.25em;
-}
-.email-highlight{
-  position:relative;
-}
-
-.email-highlight:before{
-  content:"";
-  background-color:#ff6d6d;
-  width:100%;
-  height:1em;
-  position:absolute;
-  z-index:-1;
-  filter:url(#marker-shape);
-  left:-0.05em;
-  top:0.1em;
-  padding:0 0.25em;
-}
-
-a.contact {
-  text-decoration: none;
-  color:black;
-}
-a.contact:hover {
-  text-decoration: none;
-  color:white;
-}
-
