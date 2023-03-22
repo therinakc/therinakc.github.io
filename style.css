@@ -443,7 +443,6 @@ box-shadow: 0 0 50px 15px pink;
   top: 10px;
   position: relative;
   background: rgb(17,111,70);
-  background: linear-gradient(180deg, rgba(17,111,70,1) 40%, rgba(160,221,195,1) 100%);
   
 }
 
