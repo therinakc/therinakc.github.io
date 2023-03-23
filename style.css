@@ -157,7 +157,7 @@ body {
 
 .description {
   padding-top: 10px;
-  font-size:3vh;
+  font-size:4vh;
   text-align: center;
   font-family: 'sk-modernist-mono', sans-serif !important;
 }
@@ -440,7 +440,7 @@ box-shadow: 0 0 50px 15px pink;
 
 /* Header/Logo Title */
 #header-image-menu{
-  top: 10px;
+  top: -3vh;
   position: relative;
   background: rgb(17,111,70);
   
@@ -449,9 +449,8 @@ box-shadow: 0 0 50px 15px pink;
 #header-image-menu img{
   margin: auto;
   width: 50%;
-
   display: flex;
-      justify-content: center;
+  justify-content: center;
 }
 
 #image-text{
@@ -811,7 +810,7 @@ blockquote {
 
 .heading {
   font-family:'Playfair-Display';
-  font-size: 4vh !important;
+  font-size: 4.5vh !important;
   text-align: center;
   color: black;
   -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
