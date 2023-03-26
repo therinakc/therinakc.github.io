@@ -450,7 +450,6 @@ box-shadow: 0 0 50px 15px white;
 #fao-header-image-menu img{
   margin: auto;
   width: 50%;
-  
   display: flex;
       justify-content: center;
 }
@@ -509,6 +508,8 @@ box-shadow: 0 0 50px 15px white;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  
 }
 
 .bottom {
@@ -530,11 +531,11 @@ box-shadow: 0 0 50px 15px white;
 }
 
 section.landing{
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 section.about {
-  min-height: 90vh !important;
+  min-height: 85vh !important;
 }
 
 section.social {
@@ -543,7 +544,7 @@ section.social {
 }
 
 section.project {
-  min-height: 45 vh;
+  min-height: 40 vh;
 }
 
 .reveal{
