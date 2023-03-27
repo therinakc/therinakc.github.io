@@ -412,6 +412,17 @@ box-shadow: 0 0 50px 15px white;
   color: white;
 }
 
+.cre8:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #CBDB55;
+}
+
+.cre8 {
+  background-color: #CBDB55;
+  color: white;
+}
+
 .hangon:hover {
   background-color: white; 
   color: black; 
@@ -420,6 +431,17 @@ box-shadow: 0 0 50px 15px white;
 
 .hangon {
   background-color: #267d50;
+  color: white;
+}
+
+.avenir:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #C7453D;
+}
+
+.avenir {
+  background-color: #C7453D;;
   color: white;
 }
 
@@ -781,8 +803,8 @@ blockquote {
 .shadow-cre8 {
   margin: auto;
   display: block;
-  border: solid 2px #0f60d5;
-  box-shadow: 15px 15px 0 0 #0f60d5;
+  border: solid 2px #CBDB55;;
+  box-shadow: 15px 15px 0 0 #CBDB55;;
 }
 
 .circle {
