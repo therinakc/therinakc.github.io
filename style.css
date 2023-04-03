@@ -138,16 +138,7 @@ body {
   color: pink;
 }
 
-.about-me1 {
-  background: #B993D6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  
-  border-radius: 10px;
-  padding: 10px;
-  padding-bottom: 5px;
-}
 
 .about-me {
   background: #9796f0;  /* fallback for old browsers */
@@ -253,9 +244,7 @@ background: linear-gradient(to bottom, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, 
 
 .about-img {
   margin-top: 10px;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  width: 400px;
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 }
 
@@ -263,12 +252,13 @@ background: linear-gradient(to bottom, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, 
   margin-top: 10px;
   border-radius: 50%;
   width: 200px;
-  height: 200px;
+  
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 }
 
-.hobby-title {
-  font-size: 15px;
+.hobby-text {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .Img2 {
@@ -557,7 +547,7 @@ section.landing{
 }
 
 section.about {
-  min-height: 85vh !important;
+  min-height: 90vh !important;
 }
 
 section.social {
@@ -804,7 +794,19 @@ blockquote {
   margin: auto;
   display: block;
   border: solid 2px #CBDB55;;
-  box-shadow: 15px 15px 0 0 #CBDB55;;
+  box-shadow: 15px 15px 0 0 #CBDB55;
+}
+
+.cre8-circle {
+  width: 190px;
+  border-radius:50%;
+  font-size:30px;
+  color:#fff;
+  line-height:190px;
+  text-align:center;
+  background:#CBDB55;
+  margin: auto;
+  display: block;
 }
 
 .circle {
