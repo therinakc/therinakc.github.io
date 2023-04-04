@@ -231,8 +231,8 @@ background: linear-gradient(to bottom, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, 
 }
 
 .about-desc {
-  margin-top: 10px;
-  font-size: 22px;
+  margin-top: 5px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
@@ -598,7 +598,7 @@ ul {
 }
 
 .type-title {
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .container {
